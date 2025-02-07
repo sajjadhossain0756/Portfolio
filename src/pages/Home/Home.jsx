@@ -2,6 +2,7 @@ import Bannar from "../../components/Bannar"
 import Contact from "../../components/Contact"
 import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar"
+import Skills from "../../components/Skills"
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
        <Navbar></Navbar>
        <Bannar></Bannar>
        <h1>Home Page</h1>
+       <Skills></Skills>
        <Contact></Contact>
        <Footer></Footer>
     </div>

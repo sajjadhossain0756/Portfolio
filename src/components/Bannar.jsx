@@ -34,8 +34,8 @@ const Bannar = () => {
                         </p>
                     </Fade>
                     <Fade direction='up'>
-                        <button className="btn bg-gradient-to-r from-indigo-500 text-white to-pink-500 
-                    hover:from-teal-500 hover:to-red-500">Download Resume</button>
+                        <button className="btn bg-gradient-to-r from-teal-500 text-white to-red-500 
+                    hover:from-indigo-500 hover:to-pink-500">Download Resume</button>
                     </Fade>
                 </div>
             </div>

@@ -39,7 +39,7 @@ const Footer = () => {
             <div className='w-full footer-center text-neutral-content border-t-[1px] py-4 bg-black/90 px-5 lg:px-16'>
                 <aside className='flex gap-5'>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved by Mohammad Sajjad Hossain</p>
-                    <p className='lg:ml-10'><a href="home" className='text-3xl'><FaCircleArrowUp></FaCircleArrowUp></a></p>
+                    <p className='lg:ml-10'><a href="#home" className='text-3xl'><FaCircleArrowUp></FaCircleArrowUp></a></p>
                 </aside>
                 
             </div>
