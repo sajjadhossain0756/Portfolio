@@ -1,4 +1,5 @@
 import Bannar from "../../components/Bannar"
+import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar"
 
 
@@ -8,6 +9,7 @@ const Home = () => {
        <Navbar></Navbar>
        <Bannar></Bannar>
        <h1>Home Page</h1>
+       <Footer></Footer>
     </div>
   )
 }
