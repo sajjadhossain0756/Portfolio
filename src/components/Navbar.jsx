@@ -7,9 +7,9 @@ const Navbar = () => {
     const listItem = <>
         <li><a href='#home' className='text-white'>Home</a></li>
         <li><a  className='text-white'>About</a></li>
-        <li><a className='text-white'>Skills</a></li>
+        <li><a href='#skills' className='text-white'>Skills</a></li>
         <li><a className='text-white'>Education</a></li>
-        <li><a className='text-white'>Project</a></li>
+        <li><a href='#projects' className='text-white'>Project</a></li>
         <li><a href='#contact' className='text-white'>Contact</a></li>
     </>
     return (
@@ -46,7 +46,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-gradient-to-r from-indigo-500 text-white to-pink-500 hover:from-teal-500 hover:to-red-500">Download Resume</a>
+                <a className="btn bg-gradient-to-r from-indigo-500 text-white to-pink-500 
+                hover:from-teal-500 hover:to-red-500">Download Resume</a>
             </div>
         </div>
     )

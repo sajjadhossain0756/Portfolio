@@ -7,8 +7,8 @@ import { SiJavascript, SiMongodb } from 'react-icons/si'
 
 const Skills = () => {
     return (
-        <div className='my-8 bg-green-400 p-4 lg:px-16 rounded-lg'>
-            <h2 className='text-4xl font-bold text-center mb-4'>My Skills</h2>
+        <div id='skills' className='my-8 bg-green-400 p-4 lg:px-16 rounded-lg'>
+            <h2 className='text-4xl font-bold text-center mb-8'>My Skills</h2>
 
             <div className='grid gap-4 grid-cols-2 lg:grid-cols-4'>
                 <Fade direction='down'>
