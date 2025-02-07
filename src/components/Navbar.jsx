@@ -6,10 +6,11 @@ const Navbar = () => {
 
     const listItem = <>
         <li><a href='#home' className='text-white'>Home</a></li>
-        <li><a className='text-white'>About</a></li>
+        <li><a  className='text-white'>About</a></li>
         <li><a className='text-white'>Skills</a></li>
         <li><a className='text-white'>Education</a></li>
         <li><a className='text-white'>Project</a></li>
+        <li><a href='#contact' className='text-white'>Contact</a></li>
     </>
     return (
         <div className="navbar bg-gradient-to-r from-indigo-500 via-purple-500 

@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 const Contact = () => {
     return (
-        <div className='bg-pink-300  mb-6  dark:border-purple-300 dark:bg-gray-700  rounded-lg 
+        <div id='contact' className='bg-pink-300  mb-6  dark:border-purple-300 dark:bg-gray-700  rounded-lg 
         shadow-lg w-full mx-auto overflow-hidden px-5 md:px-16 lg:max-w-6xl '>
             <Fade direction='down'>
                 <div className='text-center pt-4 mb-4 lg:mb-0'>
