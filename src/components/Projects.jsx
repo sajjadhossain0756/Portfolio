@@ -98,7 +98,7 @@ const Projects = () => {
                              https://crowdfunding-348db.web.app/</a> </p>
                             <p className=' text-black pt-2'><span className='text-xl font-bold'>Github Link: </span> 
                             <a href="https://github.com/sajjadhossain0756/b10-a10-client-side-sajjadhossain0756" target='_blank' className='underline text-lg'> 
-                             https://github.com/sajjadhossain0756/</a> </p>
+                             https://github.com/sajjadhossain0756</a> </p>
                         <div className="modal-action">
                             <form method="dialog">
                                 {/* if there is a button in form, it will close the modal */}
