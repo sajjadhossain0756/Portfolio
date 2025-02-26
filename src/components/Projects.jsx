@@ -78,7 +78,14 @@ const Projects = () => {
                             to inform, inspire, and connect readers with diverse
                             perspectives, covering a wide range of topics that shape societies and cultures.</p>
                         <button className='btn mt-4 bg-gradient-to-r from-indigo-500 text-white to-pink-500 
-                hover:from-teal-500 hover:to-red-500'><a href="https://batch10-assignment12.web.app/" target='_blank'>See Live Site</a></button>
+                        hover:from-teal-500 hover:to-red-500'><a href="https://batch10-assignment12.web.app/" target='_blank'>See Live Site</a>
+                        </button>
+                        <button
+                            onClick={() => document.getElementById('my_modal_7').showModal()}
+                            className='btn mt-4 bg-gradient-to-r hover:from-indigo-500 text-white 
+                           hover:to-pink-500 from-teal-500 to-red-500 w-[130px] ml-3'>
+                            Details
+                        </button>
                     </div>
                 </Fade>
                 <Fade direction='up' className='col-span-12 lg:col-span-7'>
@@ -129,9 +136,36 @@ const Projects = () => {
                         <p className="py-3 font-bold text-black hover:text-white"><span className='text-xl'>Used Technology:</span> HTML,CSS,Java Script,React,Node JS,Express JS,MongoDB,Firebase</p>
                         <p className=' text-black'><span className='text-xl font-bold'>Live Link: </span>
                             <a href="https://lost-and-found-db5b7.web.app/" target='_blank' className='underline text-lg'>
-                            https://lost-and-found-db5b7.web.app/</a> </p>
+                                https://lost-and-found-db5b7.web.app/</a> </p>
                         <p className=' text-black pt-2'><span className='text-xl font-bold'>Github Link: </span>
                             <a href="https://github.com/sajjadhossain0756/b10a11-client-side-sajjadhossain0756" target='_blank' className='underline text-lg'>
+                                https://github.com/sajjadhossain0756</a> </p>
+                        <div className="modal-action">
+                            <form method="dialog">
+                                {/* if there is a button in form, it will close the modal */}
+                                <button className="btn">Close</button>
+                            </form>
+                        </div>
+                    </div>
+                </dialog>
+            </div>
+
+            {/* modal three start here */}
+            <div>
+                {/* Open the modal using document.getElementById('ID').showModal() method */}
+                <dialog id="my_modal_7" className="modal modal-bottom sm:modal-middle ">
+                    <div className="modal-box bg-gradient-to-r
+                 from-indigo-500 text-white to-pink-500 hover:from-teal-500 hover:to-red-500 ">
+                        <figure>
+                            <img src={projectImg3} alt="project1" className='rounded' />
+                        </figure>
+                        <h3 className="font-bold text-2xl pt-3">Pulse Of The Nation</h3>
+                        <p className="py-3 font-bold text-black hover:text-white"><span className='text-xl'>Used Technology:</span> HTML,CSS,Java Script,React,Node JS,Express JS,MongoDB,Firebase</p>
+                        <p className=' text-black'><span className='text-xl font-bold'>Live Link: </span>
+                            <a href="https://batch10-assignment12.web.app/" target='_blank' className='underline text-lg'>
+                            https://pulse of the nation.web.app/</a> </p>
+                        <p className=' text-black pt-2'><span className='text-xl font-bold'>Github Link: </span>
+                            <a href="https://github.com/sajjadhossain0756/b10a12-client-side-sajjadhossain0756" target='_blank' className='underline text-lg'>
                                 https://github.com/sajjadhossain0756</a> </p>
                         <div className="modal-action">
                             <form method="dialog">
